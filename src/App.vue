@@ -22,11 +22,6 @@
                 </li>
                 <li class="default-link">
                   <a href="/pl">
-                    <p class="default-text-main-page text">Menu</p>
-                  </a>
-                </li>
-                <li class="default-link">
-                  <a href="/pl">
                     <p class="default-text-main-page text">O nas</p>
                   </a>
                 </li>
@@ -59,7 +54,7 @@
         <div class="slogan-background">
           <div class="slogan-border">
             <div class="slogan">
-              <p>Do poniższego formularza możecie dodać wybrane zdjęcia, którymi chcecie się podzielić. Ale uwaga, zdjęcia te później będzie można przeglądać w galeri na stronie. A jak już zgłodniejecie od patrzenia na te wszystkie zdjęcia to sprawdzie zakładkę "Menu" i zobaczcie co tam kuchania przygotowała dla Was dobrego na dzisiejszy wieczór :).</p>
+              <p>Do poniższego formularza możecie dodać wybrane zdjęcia, którymi chcecie się podzielić. Ale uwaga, zdjęcia te później będzie można przeglądać w galeri na stronie.</p>
               <div class="logo">
                 <img src="./assets/img/slonecznik-log.png" />
               </div>
