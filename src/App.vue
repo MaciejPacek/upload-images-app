@@ -31,7 +31,6 @@
               <img class="img-logo" src="./assets/img/slonecznik-log.png" />
             </div>
             <div class="right-links">
-              <!-- Możliwe linki po prawej stronie -->
             </div>
           </div>
         </div>
@@ -50,7 +49,6 @@
             </div>
           </div>
         </div>
-
         <div class="slogan-background">
           <div class="slogan-border">
             <div class="slogan">
@@ -61,16 +59,81 @@
             </div>
           </div>
         </div>
-        
-        <UploadImageComponent />
-        
+        <div class="sender">
+          <div class="files">
+            <div class="pictures">
+              <div class="img-preview">
+                <img src="./assets/img/slonecznik-log.png" alt="">
+                <div class="delete">
+                  <span class="plus">+</span></div>
+              </div> 
+              <div class="img-preview">
+                <img src="./assets/img/slonecznik-log.png" alt="">
+                <div class="delete">
+                  <span class="plus">+</span></div>
+              </div>
+              <div class="img-preview">
+                <img src="./assets/img/slonecznik-log.png" alt="">
+                <div class="delete">
+                  <span class="plus">+</span></div>
+              </div>
+              <div class="img-preview">
+                <img src="./assets/img/slonecznik-log.png" alt="">
+                <div class="delete">
+                  <span class="plus">+</span></div>
+              </div>
+              <div class="img-preview">
+                <img src="./assets/img/slonecznik-log.png" alt="">
+                <div class="delete">
+                  <span class="plus">+</span></div>
+              </div>
+              <div class="img-preview">
+                <img src="./assets/img/slonecznik-log.png" alt="">
+                <div class="delete">
+                  <span class="plus">+</span></div>
+              </div>
+              <div class="img-preview">
+                <img src="./assets/img/slonecznik-log.png" alt="">
+                <div class="delete">
+                  <span class="plus">+</span></div>
+              </div>
+              <div class="img-preview">
+                <img src="./assets/img/slonecznik-log.png" alt="">
+                <div class="delete">
+                  <span class="plus">+</span></div>
+              </div>
+              <div class="img-preview">
+                <img src="./assets/img/slonecznik-log.png" alt="">
+                <div class="delete">
+                  <span class="plus">+</span></div>
+              </div>
+              <div class="img-preview">
+                <img src="./assets/img/slonecznik-log.png" alt="">
+                <div class="delete">
+                  <span class="plus">+</span></div>
+              </div>
+              <div class="img-preview">
+                <img src="./assets/img/slonecznik-log.png" alt="">
+                <div class="delete">
+                  <span class="plus">+</span></div>
+              </div>
+              <div class="img-preview">
+                <img src="./assets/img/slonecznik-log.png" alt="">
+                <div class="delete">
+                  <span class="plus">+</span></div>
+              </div>
+            </div>
+              <div class="file-input-wrapper file-input-wrapper-empty">
+                <input data-v-79477918="" id="file-input-empty" type="file" name="file-input" class="file-input" accept=".jpg, image/*, video/*, .heic" multiple=""/>
+                <label for="file-input-empty" class="file-input-label">
+                  <span class="plus">+</span>
+                  <span class="text">Dodaj zdjęcia</span>
+                </label>
+            </div>
+          </div>
+        </div>
         <div class="background-footer">
           <footer>
-            <div class="left">
-              <a href="/pl" class="router-link-active router-link-exact-active">
-                <img class="img-logo" src="./assets/img/slonecznik-log.png" />
-              </a>
-            </div>
             <div class="copyright">
               <p>&copy; 2024 Misiek&Kotecek - International Company. Spółka z Z.O.O. Wszelkie prawa zastrzeżone.</p>
             </div>
@@ -82,12 +145,7 @@
 </template>
 
 <script>
-import UploadImageComponent from './components/upload-images-component/UploadImageComponent.vue';
-
 export default {
   name: 'App',
-  components: {
-    UploadImageComponent
-  }
 }
 </script>
